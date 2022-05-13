@@ -4,6 +4,7 @@
   "description": "Proyecto para hoja de vida",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JuanRiAT/Hoja-de-Vida/issues"
   },
-  "homepage": "https://github.com/JuanRiAT/Hoja-de-Vida#readme"
+  "homepage": "https://github.com/JuanRiAT/Hoja-de-Vida#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
