@@ -4,7 +4,7 @@
   "description": "Proyecto para hoja de vida",
   "main": "index.html",
   "scripts": {
-    "dev": "lite-server",
+    "dev": "lite-server src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/JuanRiAT/Hoja-de-Vida#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "lite-server": "^2.6.1",
+    "nodemon": "^2.0.16"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
