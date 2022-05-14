@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <title> Juan Ricardo </title>
+</head>
+<body id="principal" class="m-0 vh-100 row justify-content-center align-items-center bg-dark">
+        
+    <div class="container col-auto bg-dark">
+
+        <div>
+            
+            <h2> WELCOME TO MY RESUME.</h2>
+            <p> You can enter my website and consult my information. Please register as a company, freelance or visitor.</p>
+            
+        </div>
+
+    </div>
+
+    <div id="Contenedor" class="container col-auto bg-secondary">
+                
+        <form class="form" action="views/Login.js" method="post">
+
+            <div>
+
+                <h2 class="text-center"> Login Here.</h2>
+
+                <div id="Usuario" class="input-group mb-3">
+                    <span class="input-group-text"> <img src="icons/person.svg" width="30px" height="30px"> </span>
+                    <input type="text" name="txtUsuario" placeholder="USER" class="form-control"> 
+                </div>
+
+                <div id="Contrasena" class="input-group mb-3">
+                    <span class="input-group-text"> <img src="icons/lock.svg" width="30px" height="30px"> </span>
+                    <input type="password" name="txtContrasena" placeholder="PASSWORD" class="form-control">
+                </div>
+
+                <div id="Boton" class="boton justify-content-md-center">
+                    <button class="btnLog" type="submit" name="btnEnviar" value="Enviar"> LOGIN </button>
+                </div>
+              
+                <h6 class="text-center"><a href="/views/crear.js"> ¿FORGOT PASSWORD?</a></h6>             
+                <hr>
+
+                <div id="Boton" class="boton d-grid gap-2 d-md-flex justify-content-md-center">
+                    <button class="btnReg" type="submit" name="btnEnviar" value="Enviar"> CREATE NEW USER </button>
+                </div>
+                
+            </div>
+
+        </form>
+    </div>
+
+    
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
